@@ -6,18 +6,23 @@
 [![AWS](https://img.shields.io/badge/AWS-%F0%9F%9B%A1-orange)](https://aws.amazon.com)
 [![Terraform](https://img.shields.io/badge/Terraform-%E2%9C%A8-lightgrey)](https://www.terraform.io)
 
-![Three-Tier Banner](assets/Three-Tier.gif)
+![Three-Tier Banner](assets/image.png)
 
 Welcome to the Three-Tier Web Application Deployment project! 🚀
 
 This repository hosts the implementation of a Three-Tier Web App using ReactJS, NodeJS, and MongoDB, deployed on AWS EKS. The project covers a wide range of tools and practices for a robust and scalable DevOps setup.
 
 ## Table of Contents
-- [Application Code](#application-code)
-- [Jenkins Pipeline Code](#jenkins-pipeline-code)
-- [Jenkins Server Terraform](#jenkins-server-terraform)
-- [Kubernetes Manifests Files](#kubernetes-manifests-files)
-- [Project Details](#project-details)
+- [Three-Tier Web Application Deployment on AWS EKS using AWS EKS, ArgoCD, Prometheus, Grafana, and Jenkins](#three-tier-web-application-deployment-on-aws-eks-using-aws-eks-argocd-prometheus-grafana-andjenkins)
+  - [Table of Contents](#table-of-contents)
+  - [Application Code](#application-code)
+  - [Jenkins Pipeline Code](#jenkins-pipeline-code)
+  - [Jenkins Server Terraform](#jenkins-server-terraform)
+  - [Kubernetes Manifests Files](#kubernetes-manifests-files)
+  - [Project Details](#project-details)
+  - [Getting Started](#getting-started)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Application Code
 The `Application-Code` directory contains the source code for the Three-Tier Web Application. Dive into this directory to explore the frontend and backend implementations.
