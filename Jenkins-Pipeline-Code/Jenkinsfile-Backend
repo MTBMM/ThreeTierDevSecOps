@@ -19,7 +19,8 @@ pipeline {
         }
         stage('Checkout from Git') {
             steps {
-                git credentialsId: 'GITHUB', url: 'https://github.com/MTBMM/ThreeTierDevSecOps'
+               git branch: 'main', credentialsId: 'GITHUB', url: 'https://github.com/MTBMM/ThreeTierDevSecOps'
+
             }
         }
         stage('Sonarqube Analysis') {
@@ -82,7 +83,7 @@ pipeline {
         }
         stage('Checkout Code') {
             steps {
-                git credentialsId: 'GITHUB', url: 'https://github.com/MTBMM/ThreeTierDevSecOps'
+                 git branch: 'main', credentialsId: 'GITHUB', url: 'https://github.com/MTBMM/ThreeTierDevSecOps'
             }
         }
         stage('Update Deployment file') {
